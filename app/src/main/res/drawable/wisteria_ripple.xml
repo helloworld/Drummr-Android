@@ -1,0 +1,6 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/amethyst">
+
+    <item android:drawable="@color/wisteria"/> <!-- normal color -->
+
+</ripple>
