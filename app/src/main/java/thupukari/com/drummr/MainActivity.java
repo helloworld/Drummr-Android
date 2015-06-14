@@ -1,5 +1,6 @@
 package thupukari.com.drummr;
 
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,7 +18,7 @@ import org.json.JSONObject;
 
 import java.net.URISyntaxException;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
     private Socket socket;
 
