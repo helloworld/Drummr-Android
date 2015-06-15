@@ -24,8 +24,13 @@ public class DisplayInstrumentActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+
+
         Intent intent = getIntent();
         final String intrument = intent.getStringExtra(MainActivity.EXTRA_INSTRUMENT);
+
+        setTitle(intrument.toUpperCase());
+
 
 
         try {
