@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="thupukari.com.drummr" >
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -16,6 +17,18 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayInstrument"
+            android:label="@string/title_activity_display_instrument" >
+        </activity>
+        <activity
+            android:name=".DisplayInstrumentActivity"
+            android:label="@string/title_activity_display_instrument"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="thupukari.com.drummr.MainActivity" />
         </activity>
     </application>
 

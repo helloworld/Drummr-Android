@@ -7,6 +7,7 @@
 <item name="wisteria" type="color">#8e44ad</item>
 <item name="carrot" type="color">#e67e22</item>
 <item name="pumpkin" type="color">#d35400</item>
+<item name="clouds" type="color">#ecf0f1</item>
 
 
 <integer-array name="androidcolors">
@@ -16,6 +17,8 @@
     <item>@color/wisteria</item>
     <item>@color/carrot</item>
     <item>@color/pumpkin</item>
+    <item>@color/clouds</item>
+
 </integer-array>
 
 </resources>

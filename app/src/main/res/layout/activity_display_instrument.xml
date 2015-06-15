@@ -1,0 +1,68 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:stretchColumns="*"
+android:weightSum="3"
+tools:context="thupukari.com.drummr.DisplayInstrumentActivity">
+
+<TableRow android:layout_weight="1" >
+
+    <Button
+        android:id="@+id/button00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/peter_river_ripple"
+        android:text="00" />
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/belize_hole_ripple"
+
+        android:text="01" />
+</TableRow>
+
+<TableRow android:layout_weight="1" >
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/amethyst_ripple"
+
+        android:text="11" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wisteria_ripple"
+
+        android:text="12" />
+
+
+</TableRow>
+
+<TableRow android:layout_weight="1" >
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/carrot_ripple"
+        android:text="21" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pumpkin_ripple"
+
+        android:text="22" />
+
+
+</TableRow>
+
+</TableLayout>
