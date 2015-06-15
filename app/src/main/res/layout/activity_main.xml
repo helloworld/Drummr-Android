@@ -1,0 +1,42 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:stretchColumns="*"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose an Instrument"
+            android:textColor="@color/clouds"
+            android:textSize="50dp"
+            android:layout_marginBottom="50sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/drums"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drums"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="100sp"
+            android:layout_marginRight="100sp"
+            android:layout_marginTop="0sp"
+            android:onClick="startDrums"/>
+        <Button
+            android:id="@+id/piano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Piano"
+            android:layout_marginBottom="5sp"
+            android:layout_marginLeft="100sp"
+            android:layout_marginRight="100sp"
+            android:layout_marginTop="0sp"
+            android:onClick="startPiano"/>
+</LinearLayout>
